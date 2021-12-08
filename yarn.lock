@@ -1065,6 +1065,11 @@
   dependencies:
     mkdirp "^1.0.4"
 
+"@storyblok/storyblok-editable@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@storyblok/storyblok-editable/-/storyblok-editable-1.0.0.tgz#7951d57a3c3ce2e89681299fe015bdd9c9f25b09"
+  integrity sha512-SJmfeZdx1s9uxagj02uC6mwVBrEFispDeqVJZtUfV2LWs0apd8QOZNLkB3h9P0LFGkFbUC7zjno2JCkHhgxFJQ==
+
 "@types/json-schema@^7.0.5":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
@@ -4983,11 +4988,6 @@ storyblok-js-client@^3.1.0:
   integrity sha512-lPVT/7QvHV71TksEA589wfnZ6ou1LILJA6N6eCjTSLwNYSiojV36Qdo6tJ31qWrWglTt0BR2T32UtBCC/5UQww==
   dependencies:
     qs "^6.9.4"
-
-storyblok-react@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/storyblok-react/-/storyblok-react-0.1.1.tgz#3299aaa6c808e980f2547464deb9e15a63f88b32"
-  integrity sha512-/M620xSJQKBbDkxFQLG2zrTLXOxZG7ZcYjuaYlR9f7zMzSj+gFoQMXyMpJ2ASXI+MlhPXNnzrGk0a8hPF06YQg==
 
 stream-browserify@3.0.0:
   version "3.0.0"

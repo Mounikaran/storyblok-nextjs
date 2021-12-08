@@ -3,13 +3,15 @@ import Feature from "./Feature";
 import Grid from "./Grid";
 import FeaturedArticles from "./FeaturedArticles";
 import Placeholder from "./Placeholder";
+// import ArticleTeaser from "./ArticleTeaser";
 
 // resolve Storyblok components to Next.js components
 const Components = {
-  teaser: Teaser,
-  grid: Grid,
-  feature: Feature,
+  'teaser': Teaser,
+  'grid': Grid,
+  'feature': Feature,
   "featured-articles": FeaturedArticles,
+  // 'article' : ArticleTeaser,
 };
 
 const DynamicComponent = ({ blok }) => {
